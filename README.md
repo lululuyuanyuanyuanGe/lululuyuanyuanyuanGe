@@ -1,74 +1,74 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner.svg">
-    <img alt="Luyuan Ge - Artificial Intelligence Systems and Infrastructure" src="assets/profile-banner.svg" width="100%">
-  </picture>
+  <img src="assets/typing.svg" width="100%" alt="Luyuan Ge — Artificial Intelligence infrastructure engineer" />
 </p>
 
-<p align="center">
-  <strong>Software Engineering @ University of Toronto · Building reliable inference systems</strong>
+<img align="right" width="48%" src="assets/system-telemetry.svg" alt="System telemetry from AgentKV and CueBee benchmarks" />
+
+### Building the systems behind intelligent products
+
+- 🔭 Building application-aware **Key-Value (KV) cache** runtimes for tool-using agents
+- ⚡ Optimizing tail latency, recomputation, and **Graphics Processing Unit (GPU)** memory placement
+- 🌱 Exploring **Artificial Intelligence (AI) infrastructure**, inference engines, and distributed execution
+- 💬 Ask me about vLLM, PagedAttention, streaming inference, and stateful serving
+- 🎓 Software Engineering at the University of Toronto
+
+<br clear="right" />
+
+### Systems toolkit
+
+Languages and runtimes across NVIDIA Compute Unified Device Architecture (CUDA),
+Open Neural Network Exchange (ONNX) Runtime, and cloud-native deployment.
+
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-0B1220?style=for-the-badge&logo=cplusplus&logoColor=7DD3FC" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=FACC15" alt="Python" />
+  <img src="https://img.shields.io/badge/Swift-0B1220?style=for-the-badge&logo=swift&logoColor=FB7185" alt="Swift" />
+  <img src="https://img.shields.io/badge/PyTorch-0B1220?style=for-the-badge&logo=pytorch&logoColor=FB7185" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/NVIDIA_CUDA-0B1220?style=for-the-badge&logo=nvidia&logoColor=A3E635" alt="NVIDIA Compute Unified Device Architecture" />
+  <img src="https://img.shields.io/badge/vLLM-0B1220?style=for-the-badge&logoColor=C084FC" alt="vLLM" />
+  <img src="https://img.shields.io/badge/Triton-0B1220?style=for-the-badge&logo=nvidia&logoColor=22D3EE" alt="Triton" />
+  <img src="https://img.shields.io/badge/DeepSpeed-0B1220?style=for-the-badge&logoColor=60A5FA" alt="DeepSpeed" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-0B1220?style=for-the-badge&logo=onnx&logoColor=22D3EE" alt="Open Neural Network Exchange Runtime" />
+  <img src="https://img.shields.io/badge/Linux-0B1220?style=for-the-badge&logo=linux&logoColor=F8FAFC" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-0B1220?style=for-the-badge&logo=docker&logoColor=38BDF8" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-0B1220?style=for-the-badge&logo=kubernetes&logoColor=60A5FA" alt="Kubernetes" />
 </p>
 
-I work on the systems layer behind intelligent products: inference runtimes, cache and
-memory lifecycle, distributed execution, and low-latency streaming services. I care about
-making stateful workloads correct under retries, revisions, resource pressure, and partial
-failure—not just making a demo run once.
-
-Currently, I am a Software Engineering Intern on TikTok Ads Infrastructure. Previously, I
-worked on distributed Vision-Language-Action training systems at ShanghaiTech University
-and agentic data workflows at China Unicom.
-
-## Selected systems
+### Selected systems
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lululuyuanyuanyuanGe/agentKV">AgentKV</a></h3>
-      <p><strong>Application-aware Key-Value cache lifecycle control for agent workloads on vLLM V1.</strong></p>
-      <p>Connects session, branch, generation, and lifecycle state to safe cache retention,
-      eviction, and offload decisions while preserving native fallback behavior.</p>
-      <p><code>vLLM V1</code> · <code>Python</code> · <code>C++</code> · <code>accelerator memory</code></p>
+      <a href="https://github.com/lululuyuanyuanyuanGe/agentKV"><strong>AgentKV</strong></a><br />
+      Application-aware cache lifecycle control for agent workloads on vLLM V1.<br />
+      <sub>KV cache · accelerator memory · safe offload</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lululuyuanyuanyuanGe/cuebee-infra">CueBee Inference Infrastructure</a></h3>
-      <p><strong>Stateful streaming inference for long-lived, revisable conversations.</strong></p>
-      <p>Maintains committed and tentative transcript state, reuses stable prefixes,
-      invalidates affected branches, schedules background tasks, and gates stale output.</p>
-      <p><code>Streaming inference</code> · <code>vLLM</code> · <code>Copy-on-Write</code></p>
+      <a href="https://github.com/lululuyuanyuanyuanGe/cuebee-infra"><strong>CueBee Inference Infrastructure</strong></a><br />
+      Stateful streaming inference for long-lived, revisable conversations.<br />
+      <sub>Prefix reuse · branch invalidation · stale-output gating</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lululuyuanyuanyuanGe/cuebee-speaker-serving">CueBee Speaker Serving</a></h3>
-      <p><strong>Multi-tenant, real-time speaker diarization serving.</strong></p>
-      <p>Combines Voice Activity Detection, log-Mel features, cross-session micro-batching,
-      online centroid assignment, persistent speaker identities, and transcript alignment.</p>
-      <p><code>Open Neural Network Exchange Runtime</code> · <code>Real-time audio</code> · <code>Micro-batching</code></p>
+      <a href="https://github.com/lululuyuanyuanyuanGe/cuebee-speaker-serving"><strong>CueBee Speaker Serving</strong></a><br />
+      Multi-tenant, real-time speaker diarization with cross-session micro-batching.<br />
+      <sub>Audio inference · online clustering · stable identities</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lululuyuanyuanyuanGe/UAIassist">UAIassist</a></h3>
-      <p><strong>Stateful agent workflow for spreadsheet and report generation.</strong></p>
-      <p>Routes document ingestion, source selection, schema mapping, multi-table processing,
-      human confirmation, and structured report generation through a LangGraph workflow.</p>
-      <p><code>LangGraph</code> · <code>Python</code> · <code>Structured data</code></p>
+      <a href="https://github.com/lululuyuanyuanyuanGe/UAIassist"><strong>UAIassist</strong></a><br />
+      Stateful agent workflow for spreadsheet and report generation.<br />
+      <sub>LangGraph · schema mapping · human confirmation</sub>
     </td>
   </tr>
 </table>
 
-## What I optimize for
-
-- **Correctness under changing state** — versioned inputs, idempotency, ownership, and stale-work cancellation.
-- **Predictable tail latency** — bounded control paths, batching, overload behavior, and explicit fallbacks.
-- **Resource-aware execution** — cache reuse, memory pressure, heterogeneous placement, and distributed scaling.
-- **Reproducible engineering** — runnable demos, tests, architecture contracts, and clearly scoped evidence.
-
-## Technical focus
-
-`C/C++` · `Python` · `Swift` · `Compute Unified Device Architecture (CUDA)` ·
-`PyTorch Distributed` · `vLLM` · `Open Neural Network Exchange (ONNX) Runtime` ·
-`NVIDIA Collective Communications Library (NCCL)` · `Linux` · `Docker` · `Kubernetes`
+### Engineering activity
 
 <p align="center">
-  <sub>Interested in inference engines, distributed systems, and infrastructure for long-lived intelligent workloads.</sub>
+  <img src="assets/github-stats.svg" width="100%" alt="Luyuan Ge's GitHub engineering activity" />
+</p>
+
+<p align="center">
+  <sub>Inference runtimes · distributed systems · infrastructure for long-lived intelligent workloads</sub>
 </p>

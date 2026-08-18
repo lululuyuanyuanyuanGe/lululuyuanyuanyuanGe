@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
+  <title id="title">lululuyuanyuanyuanGe's GitHub engineering activity</title>
+  <desc id="desc">Public GitHub activity, refreshed daily.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/><stop offset="1" stop-color="#15112f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #e2e8f0; letter-spacing: 1px; }
+      .label { font: 600 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #94a3b8; letter-spacing: .7px; }
+      .value { font: 800 34px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #64748b; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="228" rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
+  <text x="26" y="38" class="title">ENGINEERING ACTIVITY</text>
+  <text x="974" y="38" class="small" text-anchor="end">@lululuyuanyuanyuanGe</text>
+  <path d="M26 55 H974" stroke="#334155"/>
+  <g transform="translate(26 76)">
+  <rect width="218" height="102" rx="13" fill="#0d192b" stroke="#26364f"/>
+  <rect width="4" height="102" rx="2" fill="#22d3ee"/>
+  <text x="18" y="31" class="label">CONTRIBUTIONS · LAST 365 DAYS</text>
+  <text x="18" y="75" class="value" fill="#22d3ee">318</text>
+</g><g transform="translate(262 76)">
+  <rect width="218" height="102" rx="13" fill="#0d192b" stroke="#26364f"/>
+  <rect width="4" height="102" rx="2" fill="#818cf8"/>
+  <text x="18" y="31" class="label">PUBLIC REPOSITORIES</text>
+  <text x="18" y="75" class="value" fill="#818cf8">37</text>
+</g><g transform="translate(498 76)">
+  <rect width="218" height="102" rx="13" fill="#0d192b" stroke="#26364f"/>
+  <rect width="4" height="102" rx="2" fill="#c084fc"/>
+  <text x="18" y="31" class="label">COMMITS · LAST 365 DAYS</text>
+  <text x="18" y="75" class="value" fill="#c084fc">294</text>
+</g><g transform="translate(734 76)">
+  <rect width="218" height="102" rx="13" fill="#0d192b" stroke="#26364f"/>
+  <rect width="4" height="102" rx="2" fill="#fb7185"/>
+  <text x="18" y="31" class="label">CONTRIBUTED REPOSITORIES</text>
+  <text x="18" y="75" class="value" fill="#fb7185">3</text>
+</g>
+  <circle cx="29" cy="204" r="4" fill="#4ade80"/>
+  <text x="42" y="208" class="small">PUBLIC DATA · UPDATED 2026-08-18 UTC · 2 PULL REQUESTS IN THE LAST 365 DAYS</text>
+</svg>

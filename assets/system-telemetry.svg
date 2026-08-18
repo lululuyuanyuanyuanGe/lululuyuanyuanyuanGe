@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="270" viewBox="0 0 540 270" role="img" aria-labelledby="title desc">
+  <title id="title">System telemetry</title>
+  <desc id="desc">Benchmark snapshots from AgentKV and CueBee systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#11102b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .label { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #94a3b8; letter-spacing: 1px; }
+      .value { font: 800 25px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .small { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #64748b; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="538" height="268" rx="18" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
+  <circle cx="27" cy="27" r="5" fill="#fb7185"/>
+  <circle cx="45" cy="27" r="5" fill="#facc15"/>
+  <circle cx="63" cy="27" r="5" fill="#4ade80"/>
+  <text x="82" y="31" class="label" fill="#cbd5e1">SYSTEM TELEMETRY</text>
+  <circle cx="502" cy="27" r="5" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="474" y="31" class="small" text-anchor="end" style="fill:#22d3ee">LIVE</text>
+  <path d="M24 48 H516" stroke="#334155"/>
+  <g transform="translate(24 68)">
+    <rect width="238" height="72" rx="11" fill="#0f1d31" stroke="#164e63"/>
+    <text x="14" y="24" class="label">RESUME TIME · 95TH PERCENTILE</text>
+    <text x="14" y="56" class="value" fill="#22d3ee">−65.4%</text>
+  </g>
+  <g transform="translate(278 68)">
+    <rect width="238" height="72" rx="11" fill="#17162d" stroke="#4c1d95"/>
+    <text x="14" y="24" class="label">RECOMPUTE TOKENS</text>
+    <text x="14" y="56" class="value" fill="#c084fc">−82.2%</text>
+  </g>
+  <g transform="translate(24 154)">
+    <rect width="238" height="72" rx="11" fill="#0f1d31" stroke="#164e63"/>
+    <text x="14" y="24" class="label">CONTROLLER · 99TH PERCENTILE</text>
+    <text x="14" y="56" class="value" fill="#22d3ee">5.7 µs</text>
+  </g>
+  <g transform="translate(278 154)">
+    <rect width="238" height="72" rx="11" fill="#17162d" stroke="#4c1d95"/>
+    <text x="14" y="24" class="label">SPEAKER SEGMENTS</text>
+    <text x="14" y="56" class="value" fill="#c084fc">47.96 / s</text>
+  </g>
+  <path d="M24 244 H516" stroke="url(#edge)" opacity="0.55"/>
+  <text x="24" y="260" class="small">AGENTKV + CUEBEE · BENCHMARK SNAPSHOTS</text>
+</svg>

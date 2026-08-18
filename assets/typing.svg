@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="92" viewBox="0 0 1000 92" role="img" aria-labelledby="title desc">
+  <title id="title">Luyuan Ge — Artificial Intelligence infrastructure engineer</title>
+  <desc id="desc">Animated terminal prompt cycling through Luyuan's engineering focus.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .prompt { font: 600 25px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #22d3ee; }
+      .line { font: 700 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: url(#accent); }
+      .muted { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #64748b; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <text x="18" y="20" class="muted">LUYUAN / SYSTEMS CONSOLE</text>
+  <text x="18" y="64" class="prompt" filter="url(#glow)">~/infra $</text>
+  <g opacity="0">
+    <text x="178" y="64" class="line">Hi, I'm Luyuan Ge.</text>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <text x="178" y="64" class="line">I build inference runtimes.</text>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.37;0.62;0.66;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <text x="178" y="64" class="line">Cache · memory · streaming · reliability.</text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.70;0.96;1" dur="12s" repeatCount="indefinite"/>
+  </g>
+  <rect x="948" y="38" width="13" height="31" rx="2" fill="#c084fc" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M18 82 H982" stroke="url(#accent)" stroke-width="2" opacity="0.4"/>
+</svg>
