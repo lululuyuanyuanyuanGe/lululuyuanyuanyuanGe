@@ -14,6 +14,20 @@
 
 <br clear="right" />
 
+### Shipping CueBee
+
+My personal iOS (iPhone Operating System) project: an artificial intelligence-powered
+conversation copilot that delivers real-time cues through your earbuds.
+
+<p>
+  <a href="https://cuebee.ca">
+    <img src="https://img.shields.io/badge/Visit-cuebee.ca-22D3EE?style=for-the-badge&logo=safari&logoColor=0B1220" alt="Visit the CueBee website" />
+  </a>
+  <a href="https://testflight.apple.com/join/U39dDVpg">
+    <img src="https://img.shields.io/badge/Try_on-TestFlight-0D96F6?style=for-the-badge&logo=apple&logoColor=white" alt="Try CueBee on TestFlight" />
+  </a>
+</p>
+
 ### Systems toolkit
 
 Languages and runtimes across NVIDIA Compute Unified Device Architecture (CUDA),
