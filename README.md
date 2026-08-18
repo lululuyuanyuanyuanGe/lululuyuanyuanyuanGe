@@ -16,7 +16,7 @@
 
 ### Shipping CueBee
 
-My personal iOS (iPhone Operating System) project: an artificial intelligence-powered
+My personal iOS project: an artificial intelligence-powered
 conversation copilot that delivers real-time cues through your earbuds.
 
 <p>
