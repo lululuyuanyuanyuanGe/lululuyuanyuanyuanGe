@@ -36,8 +36,14 @@ Use these concise descriptions in each repository's **About** field:
 - **cuebee-speaker-serving:** `speaker-diarization`, `onnx-runtime`, `microbatching`, `real-time-audio`, `vad`
 - **UAIassist:** `langgraph`, `document-processing`, `spreadsheet-automation`, `multi-agent`, `report-generation`
 
-## Publishing
+## Publishing status
 
-The profile README becomes visible when a public repository named exactly
-`lululuyuanyuanyuanGe` contains `README.md` at its root. The current GitHub command-line
-login must be renewed before this local directory can be published.
+The public profile repository is available at
+<https://github.com/lululuyuanyuanyuanGe/lululuyuanyuanyuanGe>.
+
+GitHub recognizes it as the account's user-configuration repository and the root README
+and banner render correctly. If the README is not yet expanded on the Overview page, open
+the repository while signed in and click **Share to profile**.
+
+The public name and bio can be added through **Your profile → Edit profile** without
+changing the pinned repository set.
