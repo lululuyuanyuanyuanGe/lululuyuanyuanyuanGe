@@ -70,9 +70,9 @@ Open Neural Network Exchange (ONNX) Runtime, and cloud-native deployment.
       <sub>Audio inference · online clustering · stable identities</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lululuyuanyuanyuanGe/UAIassist"><strong>UAIassist</strong></a><br />
-      Stateful agent workflow for spreadsheet and report generation.<br />
-      <sub>LangGraph · schema mapping · human confirmation</sub>
+      <a href="https://github.com/lululuyuanyuanyuanGe/streammm"><strong>streammm</strong></a><br />
+      Stateful streaming multimodal inference control plane for revisable, multi-session workloads.<br />
+      <sub>Visual budgeting · cross-session batching · versioned KV handoff</sub>
     </td>
   </tr>
 </table>
