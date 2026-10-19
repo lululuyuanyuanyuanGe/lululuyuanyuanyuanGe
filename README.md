@@ -77,12 +77,3 @@ Open Neural Network Exchange (ONNX) Runtime, and cloud-native deployment.
   </tr>
 </table>
 
-### Engineering activity
-
-<p align="center">
-  <img src="assets/github-stats.svg" width="100%" alt="Luyuan Ge's GitHub engineering activity" />
-</p>
-
-<p align="center">
-  <sub>Inference runtimes · distributed systems · infrastructure for long-lived intelligent workloads</sub>
-</p>
